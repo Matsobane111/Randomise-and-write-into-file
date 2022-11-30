@@ -1,0 +1,17 @@
+1.Open control panel and run Apatche and MySQL.
+2.Copy the Assignments folder to xampp > htdocs.
+3.Open folder test2.
+Instructions
+. Open chrome and paste : http://localhost/ASSIGNMENTS/Test2/
+.click form.php. enter any number from 1 to 20.
+.Then the file will be generated.
+. Open the output folder on xampp to find the output.csv.
+. Open the csv with notepad++ to see the data.
+. You can randomise as much as you can with the same value by refreshing the page but you can still
+  click the text link directed to you to go back to the form and enter a new number of rows.
+. Then open the dbQuery file and copy the the query and run it on cmd in the localhostphpmyadmin(http://localhost/phpmyadmin/index.php?route=/server/databases).
+. Bottom left corner click console and paste the query.
+. then open the Assignment database and the test2 table .
+. import the csv file to add the data into the database.
+
+Note:The randomised arrays for name and surname display in the order of the array created.I did not use the shuffle.

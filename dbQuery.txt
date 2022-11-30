@@ -1,0 +1,4 @@
+
+CREATE DATABASE assignment;
+USE assignment;
+CREATE TABLE Test2 (id INT, name VARCHAR(250), surname VARCHAR(250),initials VARCHAR(250), age int(5),date_of_birth DATE);
